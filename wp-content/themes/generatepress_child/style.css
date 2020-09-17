@@ -1,0 +1,42 @@
+/*
+ Theme Name:   GeneratePress Child
+ Theme URI:    https://generatepress.com
+ Description:  Default GeneratePress child theme
+ Author:       Tom Usborne
+ Author URI:   https://tomusborne.com
+ Template:     generatepress
+ Version:      0.1
+*/
+
+/*
+ ======================
+ --- ELEMENTOR RESET---
+ ======================
+ */
+
+.elementor-widget:not(:last-child){
+	margin-bottom: 0 !important;
+}
+
+p{margin-bottom: 0 !important;}
+
+/*
+ ======================
+ ---   CUSTOM CSS   ---
+ ======================
+ */
+
+
+/*BUTTON CUSTOM*/
+.button-jf img:hover{
+	margin-left: 10px;
+}
+
+/*BOX FLOAT LEFT*/
+.align-reset{
+	float: left !important;
+}
+
+.social-anim img:hover{
+	margin-top: -5px;
+}
